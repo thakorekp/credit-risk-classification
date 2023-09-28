@@ -8,3 +8,11 @@ The purpose of this analysis is to evaluate a Logistic Regression model that is 
 Based on the balanced accuracy score evaluation of the model, we can tell that the model predicted the correct label about 94 percent of the time. From the confusion matrix and classification report, we can see that the model predicted loan status with 99.2% accuracy. The precision of 0.87 tells us what proportion of all high risk classifications were actually correct, taking into account the false positives(false high risk classifications). The recall of 0.89 tells us what proportion of true high risk loan classifications were correctly identified, taking into account false negatives(false healthy loan classifications). Based upon this, I would recommend the model to predict credit risk for customers of this establishment. 
 
 The second model fit with oversampled data had an accuracy of 99%. The precision and recall, as described above, were both 0.99 (higher) with the second model. Based upon this, I would recommend this model fit with the oversampled data over the previous model to predict credit risk more accurately.
+
+
+
+
+
+Websites used for research:
+https://imbalanced-learn.org/stable/over_sampling.html
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.balanced_accuracy_score.html
